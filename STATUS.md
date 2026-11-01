@@ -4,7 +4,7 @@
 
 **Location:** `/workspace/kilo-lab/privacy-for-small-business-guide`  
 **Date:** November 1, 2026  
-**Git commits:** 1 commit (initial)  
+**Git commits:** 2 commits (initial, readme-improvements)  
 **Git identity:** Dylan Asdale (dylanasdale@users.noreply.github.com)
 
 ---
@@ -36,7 +36,7 @@ A beginner manual on privacy for small businesses — customer data, AI tool saf
 | File | Description |
 |------|-------------|
 | `LICENSE` | MIT License with exact copyright line: `Copyright (c) 2026 Asdale Dynamics, LLC` |
-| `README.md` | Project overview crediting Asdale Dynamics, LLC, founder Dylan Asdale, link to dylanasdale.github.io, educational-only disclaimer |
+| `README.md` | Project overview crediting Asdale Dynamics, LLC, founder Dylan Asdale, link to dylanasdale.github.io, educational-only disclaimer; warmed to a friend-like tone with "who this is for" section |
 | `.gitignore` | Standard macOS/Windows ignore rules |
 | `STATUS.md` | This file |
 
@@ -109,6 +109,12 @@ VERIFICATION PASSED
 - ✅ Print styles included (hides navigation, optimizes layout for paper)
 - ✅ Responsive breakpoint at 600px
 - ✅ Accessible color contrast (primary #2563eb on white background)
+
+### Local server test
+- ✅ `cd site && python3 -m http.server 18082` serves all files
+- ✅ `site/index.html` → HTTP 200
+- ✅ `site/checklist.html` → HTTP 200
+- ✅ `site/assets/style.css` → HTTP 200
 
 ### Content Completeness
 All required topics covered:

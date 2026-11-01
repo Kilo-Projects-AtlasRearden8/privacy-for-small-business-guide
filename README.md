@@ -1,8 +1,16 @@
 # Privacy for Small Business
 
-A beginner-friendly manual for protecting customer data, using AI tools safely, and writing simple privacy policies — for small businesses, solo founders, and author-LLCs. Includes a printable checklist.
+A beginner-friendly manual for protecting your customers' data, using AI tools safely, and writing simple privacy policies — for small businesses, solo founders, freelancers, and author-LLCs. Includes a printable checklist. No jargon, no scare tactics, no legalese — just clear steps you can take today.
 
-Published by **Asdale Dynamics, LLC** (Indiana, formed October 2026). Asdale Dynamics is a beginner-friendly AI education company founded by **Dylan Asdale**, a registered nurse turned AI author and founder of Asdale Dynamics. We explain AI "like a friend would": plain English, step by step, never condescending. Learn more at [dylanasdale.github.io](https://dylanasdale.github.io).
+Published by **Asdale Dynamics, LLC** (Indiana, formed October 2026). Asdale Dynamics is a beginner-friendly AI education company founded by **Dylan Asdale**, a registered nurse turned AI author and founder of Asdale Dynamics. We explain things "like a friend would": plain English, step by step, never condescending. Learn more at [dylanasdale.github.io](https://dylanasdale.github.io).
+
+---
+
+## Who this is for
+
+You run a small business — maybe an author LLC, an online shop, a freelance service, or a local shop — and you collect customer information: names, emails, orders, payment details. You want to handle that data responsibly, use AI tools without leaking customer info, and have simple policies in place. You don't have a legal team. This manual is written for you.
+
+No technical or legal background needed. Read it in one sitting, or a section at a time.
 
 ---
 
