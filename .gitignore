@@ -1,7 +1,14 @@
-.DS_Thumbs
+*.pyc
 .DS_Store
-._*
+.DS_Thumbs
 .Spotlight-V100
 .Trashes
-ehthumbs.db
+._*
+.env
+.env.*
+.venv/
 Thumbs.db
+__pycache__/
+dist/*.tmp
+ehthumbs.db
+node_modules/
