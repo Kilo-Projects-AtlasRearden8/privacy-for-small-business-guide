@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Privacy for Small Business Checklist — Printable checklist for customer data, AI tool safety, and simple policies.">
+  <title>Privacy for Small Business Checklist — Asdale Dynamics, LLC</title>
+  <link rel="stylesheet" href="assets/style.css">
+  <style>
+    @media print {
+      .no-print { display: none !important; }
+      body { font-size: 11pt; line-height: 1.4; }
+      .section { page-break-inside: avoid; }
+      .checklist-item { page-break-inside: avoid; }
+      a { text-decoration: none; color: inherit; }
+      .site-header, .site-footer { display: none; }
+    }
+    .checklist-item { display: flex; align-items: baseline; gap: 0.5rem; margin: 0.25rem 0; }
+    .checklist-item input[type="checkbox"] { width: 1.2rem; height: 1.2rem; flex-shrink: 0; margin-top: 0.1rem; }
+    .checklist-group { margin-bottom: 1rem; }
+    .checklist-group h3 { margin-bottom: 0.5rem; border-bottom: 1px solid #ddd; padding-bottom: 0.25rem; }
+    .emergency { background: #fff3cd; border: 1px solid #ffc107; padding: 1rem; border-radius: 4px; margin-top: 2rem; }
+  </style>
+</head>
+<body>
+  <header class="site-header no-print">
+    <div class="container">
+      <h1>Privacy for Small Business Checklist</h1>
+      <p class="subtitle">Print this page. Check off each item as you complete it.</p>
+      <p class="credit">Published by <strong>Asdale Dynamics, LLC</strong> — October 2026</p>
+    </div>
+  </header>
+
+  <nav class="toc no-print" aria-label="Navigation">
+    <div class="container">
+      <a href="index.html" class="back-link">← Back to Manual</a>
+    </div>
+  </nav>
+
+  <main class="container">
+    <section class="section">
+      <div class="checklist-group">
+        <h3>📋 Customer Data</h3>
+        <label class="checklist-item"><input type="checkbox"> List every tool that holds customer data (store, email, invoices, spreadsheets, scheduling)</label>
+        <label class="checklist-item"><input type="checkbox"> Write down what data each tool stores and who can access it</label>
+        <label class="checklist-item"><input type="checkbox"> Stop collecting information you don't actually need</label>
+        <label class="checklist-item"><input type="checkbox"> Never store full credit card numbers — let your payment processor handle them</label>
+        <label class="checklist-item"><input type="checkbox"> Turn on two-factor authentication (2FA) on email, store, accounting, and website admin accounts</label>
+        <label class="checklist-item"><input type="checkbox"> Use unique, strong passwords for every business account (use a password manager)</label>
+        <label class="checklist-item"><input type="checkbox"> Limit customer data access to people who need it for their jobs</label>
+        <label class="checklist-item"><input type="checkbox"> Back up customer data to an encrypted, access-controlled location</label>
+        <label class="checklist-item"><input type="checkbox"> Make a vendor list and note what customer data each vendor sees</label>
+        <label class="checklist-item"><input type="checkbox"> Set up a process for handling customer data deletion requests</label>
+        <label class="checklist-item"><input type="checkbox"> Know which records you must keep for tax or legal reasons</label>
+      </div>
+
+      <div class="checklist-group">
+        <h3>🤖 AI Tool Safety</h3>
+        <label class="checklist-item"><input type="checkbox"> Never paste customer names, emails, orders, or support tickets into AI chat</label>
+        <label class="checklist-item"><input type="checkbox"> Never paste contracts, NDAs, or financials into AI chat</label>
+        <label class="checklist-item"><input type="checkbox"> Never paste passwords, API keys, or credentials into AI chat</label>
+        <label class="checklist-item"><input type="checkbox"> Anonymize before pasting (use "Customer A", "customer@example.com")</label>
+        <label class="checklist-item"><input type="checkbox"> Turn off "improve model" / training in AI tool settings where available</label>
+        <label class="checklist-item"><input type="checkbox"> Use local models (Ollama, LM Studio, GPT4All) for sensitive work</label>
+        <label class="checklist-item"><input type="checkbox"> Don't use AI meeting notetakers on customer calls without customer consent</label>
+        <label class="checklist-item"><input type="checkbox"> Write a team rule: what is and isn't okay to paste into AI</label>
+      </div>
+
+      <div class="checklist-group">
+        <h3>📄 Simple Policies</h3>
+        <label class="checklist-item"><input type="checkbox"> Publish a short privacy policy on your website (what you collect, why, who sees it, how to contact you)</label>
+        <label class="checklist-item"><input type="checkbox"> Link the privacy policy from your site footer and checkout pages</label>
+        <label class="checklist-item"><input type="checkbox"> Set a data retention schedule (how long you keep each type of customer data)</label>
+        <label class="checklist-item"><input type="checkbox"> Pick a yearly date to review and delete outdated customer data</label>
+        <label class="checklist-item"><input type="checkbox"> Give employees/contractors a one-page customer-data handling guide</label>
+        <label class="checklist-item"><input type="checkbox"> Use the vendor assessment checklist before adding tools that touch customer data</label>
+        <label class="checklist-item"><input type="checkbox"> Write a short incident response plan (who to notify, what to do if data is exposed)</label>
+      </div>
+
+      <div class="checklist-group">
+        <h3>🔄 Quarterly Maintenance</h3>
+        <label class="checklist-item"><input type="checkbox"> Review customer data access — remove access for people who no longer need it</label>
+        <label class="checklist-item"><input type="checkbox"> Delete outdated customer data per your retention schedule</label>
+        <label class="checklist-item"><input type="checkbox"> Review vendor list — remove tools you no longer use</label>
+        <label class="checklist-item"><input type="checkbox"> Confirm 2FA is still enabled on critical accounts</label>
+        <label class="checklist-item"><input type="checkbox"> Check for data breach news involving tools you use (haveibeenpwned.com)</label>
+        <label class="checklist-item"><input type="checkbox"> Update this checklist</label>
+      </div>
+    </section>
+
+    <section class="emergency">
+      <h3>🚨 Emergency: If Customer Data Is Exposed</h3>
+      <ol>
+        <li><strong>Secure accounts</strong> — change passwords, revoke access immediately</li>
+        <li><strong>Find out what was exposed</strong> — which data, how many customers</li>
+        <li><strong>Stop the leak</strong> — remove exposed files, disable compromised accounts</li>
+        <li><strong>Notify affected customers</strong> — explain what happened and what they should do</li>
+        <li><strong>Report if required</strong> — regulators or affected individuals, depending on your location/industry</li>
+        <li><strong>Fix the cause</strong> — update policies, add 2FA, train your team</li>
+      </ol>
+    </section>
+
+    <p class="credit" style="margin-top: 2rem; text-align: center;">
+      Copyright (c) 2026 Asdale Dynamics, LLC. Licensed under MIT.<br>
+      Full manual: <code>docs/index.md</code> or <a href="index.html">site/index.html</a><br>
+      Asdale Dynamics — <a href="https://dylanasdale.github.io" target="_blank" rel="noopener">https://dylanasdale.github.io</a><br>
+      Educational only. Not legal advice.
+    </p>
+  </main>
+
+  <footer class="site-footer no-print">
+    <div class="container">
+      <p>Privacy for Small Business Checklist — <a href="https://dylanasdale.github.io" target="_blank" rel="noopener">Asdale Dynamics, LLC</a> — MIT License</p>
+    </div>
+  </footer>
+
+  <script class="no-print">
+    // Save checkbox state to localStorage
+    document.querySelectorAll('input[type="checkbox"]').forEach((cb, i) => {
+      const key = 'checklist-' + i;
+      if (localStorage.getItem(key) === 'true') cb.checked = true;
+      cb.addEventListener('change', () => localStorage.setItem(key, cb.checked));
+    });
+  </script>
+</body>
+</html>
